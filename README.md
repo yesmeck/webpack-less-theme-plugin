@@ -12,7 +12,7 @@ $ npm i webpack-less-theme-plugin --save-dev
 
 Add to webpack config.
 
-```javscript
+```javascript
 // webpack.config.js
 const LessThemePlugin = require('webpack-less-theme-plugin');
 
@@ -46,7 +46,7 @@ module.exports = {
 }
 ```
 
-```javscript
+```javascript
 // theme.js
 module.exports = {
   'primary-color': 'blue',
@@ -55,7 +55,7 @@ module.exports = {
 
 Or export a function
 
-```javscript
+```javascript
 // theme.js
 module.exports = () => ({
   'primary-color': 'blue',
