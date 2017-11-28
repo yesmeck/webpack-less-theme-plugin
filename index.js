@@ -39,6 +39,7 @@ class LessThemePlugin {
       compiler.options.module.rules.push({
         test: this.options.test,
         loader: 'less-loader',
+        enforce: 'pre',
         options: {
           modifyVars: theme,
         }
