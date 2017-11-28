@@ -1,0 +1,22 @@
+{
+  "name": "webpack-less-theme-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "jest": "^21.2.1",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "less-vars-to-js": "^1.2.1"
+  }
+}
