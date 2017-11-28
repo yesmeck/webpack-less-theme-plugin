@@ -73,6 +73,7 @@ module.exports = () => ({
 ```
 
 ```less
+// theme.less
 @primary-color: blue;
 ```
 
