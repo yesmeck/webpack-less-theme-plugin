@@ -32,7 +32,7 @@ module.exports = {
 ## Options
 
 - `test` - webpack's [Condation.rule](https://webpack.js.org/configuration/module/#condition). Default is `/\.less$/`.
-- `theme` - less them file.
+- `theme` - less theme file.
 - `cwd`  - Current working dir.
 
 ## License
