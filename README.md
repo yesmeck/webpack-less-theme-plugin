@@ -19,7 +19,7 @@ const LessThemePlugin = require('webpack-less-theme-plugin');
 module.exports = {
   ...,
   plugins: [
-    new LessThemePlugin('./theme.less'),
+    new LessThemePlugin({ theme: './theme.less' }),
   ],
 };
 ```
@@ -32,7 +32,7 @@ module.exports = {
 ## Options
 
 - `test` - webpack's [Condation.rule](https://webpack.js.org/configuration/module/#condition). Default is `/\.less$/`.
-- `them` - less them file.
+- `theme` - less them file.
 - `cwd`  - Current working dir.
 
 ## License
