@@ -3,7 +3,7 @@ const { readFileSync } = require('fs');
 const webpack = require('webpack');
 const getConfig = require('./fixtures/webpack.config');
 
-['pkg', 'js-object', 'js-function', 'less-file'].forEach((kase) => {
+['less-file'].forEach((kase) => {
   test(kase, (done) => {
     const outputPath = resolve(__dirname, `./expect`);
     const cwd = resolve(__dirname, `./fixtures/${kase}`);

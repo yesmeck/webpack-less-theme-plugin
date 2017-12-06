@@ -1,5 +1,5 @@
 const { resolve } = require('path');
-const LessThemePlugin = require('../..');
+const LessThemePlugin = require('../../lib');
 
 module.exports = ({ cwd }) => ({
   entry: resolve(__dirname, './index.js'),
@@ -16,6 +16,6 @@ module.exports = ({ cwd }) => ({
     ]
   },
   plugins: [
-    new LessThemePlugin({ cwd }),
+    new LessThemePlugin({ cwd, theme: './theme.less' }),
   ],
 });
