@@ -19,13 +19,13 @@ const LessThemePlugin = require('webpack-less-theme-plugin');
 module.exports = {
   ...,
   plugins: [
-    new LessThemePlugin({ theme: './theme.less' }),
+    new LessThemePlugin({ theme: './blue.less' }),
   ],
 };
 ```
 
 ```less
-// theme.less
+// blue.less
 @primary-color: blue;
 ```
 
