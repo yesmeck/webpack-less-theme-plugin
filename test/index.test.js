@@ -12,7 +12,7 @@ const getConfig = require('./fixtures/webpack.config');
     });
     webpack(webpackConfig, () => {
       const bundle = readFileSync(join(outputPath, 'bundle.js')).toString();
-      expect(bundle).toContain('exports.push([module.i, "body {\\n  color: green;\\n}\\n", ""]);')
+      expect(bundle).toContain('"body {\\n  color: green;\\n}');
       done();
     });
   });

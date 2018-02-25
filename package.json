@@ -14,7 +14,7 @@
     "jest": "^21.2.1",
     "less": "^2.7.3",
     "less-loader": "^4.0.5",
-    "webpack": "^3.10.0"
+    "webpack": "^4.0.0"
   },
   "dependencies": {
     "loader-utils": "^1.1.0"
